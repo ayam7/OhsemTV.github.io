@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ohsem TV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2><a href="index.html">Ohsem</a></h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="popular.html">Popular</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="premium.html">Premium</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container" id="blur">
+        <h1>This Is Our Resources</h1>
+        <hr>
+        <h2>Click Below Here!</h2>
+        <div class="popup-button">
+            <button onclick="toggle2()">Resources</button>
+            <button onclick="toggle3()">Our Team</button>
+        </div>
+        <hr>
+    </div>
+
+    <div id="res-popup">
+        <ul>
+            <li>www.youtube.com</li>
+            <li>www.github.com</li>
+            <li>www.w3schools.com</li>
+        </ul>
+        <a href="#" onclick="toggle2()">Close</a>
+    </div>
+
+    <div id="res-popup2">
+        <h2>This is Our Team</h2>
+        <ul>
+            <li>Muhammad Afiq Haikal bin Makhtar (52052322001)</li>
+            <li>Muhamad Nazrin bin Nordin (52052322056)</li>
+            <li>Muhamad Nazirul bin Mohd Nazim (52052322113)</li>
+            <li>Muhammad Amir Imran bin Abdul Razak (52052322144)</li>
+            <li>Mohamad Ikmal Hafizi bin Mohd Amir (52052322019)</li>
+        </ul>
+        <a href="#" onclick="toggle3()">Close</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <a href="resources.html">resources</a>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
